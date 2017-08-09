@@ -1,16 +1,9 @@
-
-
 %calculate and plot the figures in 
 %[1] Shen, Macheng, Ding Zhao, and Jing Sun. "The Impact of Road Configuration in V2V-based Cooperative Localization: Mathematical Analysis and Real-world Evaluation." arXiv preprint arXiv:1705.00568 (2017).
-%flag=1, plot Fig. 3;   those plot might seem different from those in the
-%paper, mainly due to the randomness of the empirical expectation calculated by MC method,in the paper
+%those plot might seem different from those in the paper, mainly due to the randomness of the empirical expectation calculated by MC method,in the paper
 %each expected value is calculated with 10000 samples and 5000 particles,
 %while this program only uses 100 samples and 1000 particles for efficiency
-%flag=2, plot Fig. 4;
-%flag=3, plot Fig. 5;
-%flag=4, plot Fig. 6;
-%flag=5, load Fig. 7 and Fig. 8;
-%flag=6, evaluation the CMM error in Ann Arbor (Fig. 9-Fig. 11) 
+
 
 %control parameter:
 fsim=0; % fsim=1: run simulation to generate data; fsim=1: load data from file
